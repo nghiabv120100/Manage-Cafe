@@ -1,0 +1,17 @@
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\bin\Debug\ManageCafe.exe.config
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\bin\Debug\ManageCafe.exe
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\bin\Debug\ManageCafe.pdb
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.csprojAssemblyReference.cache
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfLogin.g.cs
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\App.g.cs
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe_MarkupCompile.cache
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe_MarkupCompile.lref
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfLogin.baml
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.g.resources
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.Properties.Resources.resources
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.csproj.GenerateResource.cache
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.csproj.CoreCompileInputs.cache
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.exe
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.pdb
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfMain.g.cs
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfMain.baml
