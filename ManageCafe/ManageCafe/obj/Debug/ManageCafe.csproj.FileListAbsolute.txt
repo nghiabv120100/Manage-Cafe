@@ -15,3 +15,5 @@ E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.
 E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\ManageCafe.pdb
 E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfMain.g.cs
 E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfMain.baml
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfProfileAccount.g.cs
+E:\Information Technology\ManageCafe\ManageCafe\ManageCafe\obj\Debug\WpfProfileAccount.baml

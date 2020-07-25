@@ -7,6 +7,89 @@
         mc:Ignorable="d"
         Title="Manage Cafe" Height="600" Width="1300">
     <Grid>
-        
+        <Menu HorizontalAlignment="Left" FontSize="20"
+              Height="30" Width="1300" VerticalAlignment="Top">
+            <MenuItem Header="Admin" >
+
+            </MenuItem>
+            <MenuItem Header="Account Info">
+                <MenuItem Header="Profile">
+
+                </MenuItem>
+                <MenuItem Header="Log out">
+
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <WrapPanel Width="650" HorizontalAlignment="Left" Margin="0,30,0,0">
+
+        </WrapPanel>
+        <Grid Width="650" HorizontalAlignment="Right" Margin="0,30,0,0">
+            <ComboBox 
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontSize="20"
+                Height="30"
+                Width="250">
+
+            </ComboBox>
+            <ComboBox 
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="0,35"
+                Height="30"
+                Width="250"
+                FontSize="20">
+
+            </ComboBox>
+            <Button Content="Add food "
+                    FontSize="20"
+                    Width="100"
+                    Height="65" 
+                    VerticalAlignment="Top">
+
+            </Button>
+            <StackPanel Orientation="Horizontal" 
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Right"                       
+                        Height="60" Width="104" Margin="0,0,141,0">
+                <TextBox x:Name="txtNum" x:FieldModifier="private" Margin="5,5,0,5" Width="49" Text="0" TextChanged="txtNum_TextChanged" />
+                <Button x:Name="cmdUp" x:FieldModifier="private" Margin="5,5,0,5" Content="˄" Width="20" Click="cmdUp_Click" />
+                <Button x:Name="cmdDown" x:FieldModifier="private" Margin="0,5,0,5"  Content="˅" Width="20" Click="cmdDown_Click" />
+            </StackPanel>
+            <ListView VerticalAlignment="Bottom"
+                      Height="367"
+                      Margin="0,0,0,93.4"
+                      >
+                <GridView>
+
+                </GridView>
+            </ListView>
+        </Grid>
+        <Grid  HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="80" Width="650">
+            <Button Content="Change Table" 
+                    FontSize="20"
+                    Width="150"
+                    HorizontalAlignment="Left"
+                    Height="30" VerticalAlignment="Top"></Button>
+            <ComboBox Height="30" Width="150"
+                       Margin="0,30,500,0"
+                        >
+            </ComboBox>
+            <Button Content="Sale Down" 
+                    FontSize="20"
+                    Width="150"
+                    HorizontalAlignment="Center"
+                    Height="30" VerticalAlignment="Top"></Button>
+            <ComboBox Height="30" Width="150"
+                       VerticalContentAlignment="Center" Margin="250,40,250,10"
+                        >
+            </ComboBox>
+            <Button Content="Check Out" 
+                    FontSize="20"
+                    Width="150"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top" Margin="0,10,10,0" Height="60"></Button>
+        </Grid>
     </Grid>
 </Window>
