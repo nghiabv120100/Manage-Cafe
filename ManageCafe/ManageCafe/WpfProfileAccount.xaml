@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ManageCafe"
         mc:Ignorable="d"
-        Title="WpfProfileAccount" Height="450" Width="618.8">
+        Title="WpfProfileAccount" Height="450" Width="618.8"
+        KeyDown="Window_KeyDown" WindowStartupLocation="CenterScreen">
     <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal" Margin="10">
             <Label Content="User Name:" FontSize="20" ></Label>
@@ -37,10 +38,12 @@
                      ></PasswordBox>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
-            <Button Content="Update" FontSize="20"
-                    Margin="340,0,0,0"></Button>
-            <Button Content="Exit" FontSize="20"
-                    Margin="20,0,0,0" Width="94"/>
+            <Button x:Name="btnUpdate" Content="Update" FontSize="20"
+                    Margin="340,0,0,0"
+                    Click="btnUpdate_Click"></Button>
+            <Button x:Name="btnExit" Content="Exit" FontSize="20"
+                    Margin="20,0,0,0" Width="94"
+                    Click="btnExit_Click"/>
         </StackPanel>
     </StackPanel>
 </Window>

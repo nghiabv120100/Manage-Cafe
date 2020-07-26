@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:ManageCafe"
         mc:Ignorable="d"
         Closing="Window_Closing"
+       
         ResizeMode="CanMinimize"
-        Title="WpfLogin" Height="300" Width="500" WindowStartupLocation="CenterScreen">
+        Title="WpfLogin" Height="300" Width="500" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown">
     <StackPanel Margin="30">
         <WrapPanel>
             <Label Content="User Name:"

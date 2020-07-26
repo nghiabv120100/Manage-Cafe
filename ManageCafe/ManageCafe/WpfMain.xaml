@@ -9,11 +9,11 @@
     <Grid>
         <Menu HorizontalAlignment="Left" FontSize="20"
               Height="30" Width="1300" VerticalAlignment="Top">
-            <MenuItem Header="Admin" >
+            <MenuItem x:Name="mnuAdmin" Header="Admin" Click="mnuAdmin_Click" >
 
             </MenuItem>
             <MenuItem Header="Account Info">
-                <MenuItem Header="Profile">
+                <MenuItem x:Name="mnuProfile" Header="Profile" Click="mnuProfile_Click" >
 
                 </MenuItem>
                 <MenuItem Header="Log out">

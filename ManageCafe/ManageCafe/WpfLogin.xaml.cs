@@ -46,5 +46,17 @@ namespace ManageCafe
                 e.Cancel = true;
             }    
         }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key==Key.Enter)
+            {
+                Button_Click(sender, e);
+            }
+            if(e.Key==Key.Escape)
+            {
+                Button_Click_1(sender, e);
+            }
+        }
     }
 }

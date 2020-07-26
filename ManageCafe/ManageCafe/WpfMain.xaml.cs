@@ -61,5 +61,18 @@ namespace ManageCafe
             if (!int.TryParse(txtNum.Text, out _numValue))
                 txtNum.Text = _numValue.ToString();
         }
+
+
+        private void mnuProfile_Click(object sender, RoutedEventArgs e)
+        {
+            WpfProfileAccount wpf = new WpfProfileAccount();
+            wpf.Show();
+        }
+
+        private void mnuAdmin_Click(object sender, RoutedEventArgs e)
+        {
+            WpfAdmin wpf = new WpfAdmin();
+            wpf.Show();
+        }
     }
 }

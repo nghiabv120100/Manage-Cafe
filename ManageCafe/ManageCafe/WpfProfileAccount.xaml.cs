@@ -23,5 +23,27 @@ namespace ManageCafe
         {
             InitializeComponent();
         }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key==Key.Enter)
+            {
+                btnUpdate_Click(sender, e);
+            }
+            if(e.Key==Key.Escape)
+            {
+                btnExit_Click(sender, e);
+            }
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
