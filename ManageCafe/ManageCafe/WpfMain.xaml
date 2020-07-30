@@ -21,7 +21,7 @@
                 </MenuItem>
             </MenuItem>
         </Menu>
-        <WrapPanel Width="650" HorizontalAlignment="Left" Margin="0,30,0,0">
+        <WrapPanel  x:Name="pnlTable" Width="650" HorizontalAlignment="Left" Margin="0,30,0,0">
 
         </WrapPanel>
         <Grid Width="650" HorizontalAlignment="Right" Margin="0,30,0,0">

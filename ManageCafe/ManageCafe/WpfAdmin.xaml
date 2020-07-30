@@ -268,10 +268,27 @@
                             <ColumnDefinition Width="48*"/>
                             <ColumnDefinition Width="17*"/>
                         </Grid.ColumnDefinitions>
-                        <ListView Grid.ColumnSpan="2">
-                            <GridView>
+                        <ListView x:Name="lsvAccount" Grid.ColumnSpan="2">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn DisplayMemberBinding="{Binding Path=UserName}"
+                                                    Header="User Name">
+                                        
+                                    </GridViewColumn>
+                                    <GridViewColumn DisplayMemberBinding="{Binding Path=DisplayName}"
+                                                    Header="Display Name">
 
-                            </GridView>
+                                    </GridViewColumn>
+                                    <GridViewColumn DisplayMemberBinding="{Binding Path=Password}"
+                                                    Header="Password">
+
+                                    </GridViewColumn>
+                                    <GridViewColumn DisplayMemberBinding="{Binding Path=Type}"
+                                                    Header="Type">
+
+                                    </GridViewColumn>
+                                </GridView>
+                            </ListView.View>
                         </ListView>
                     </Grid>
                     <Grid 

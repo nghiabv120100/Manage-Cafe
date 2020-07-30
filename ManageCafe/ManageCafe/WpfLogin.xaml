@@ -17,7 +17,7 @@
                FontFamily="Arial"
                    
                ></Label>
-            <TextBox
+            <TextBox x:Name="txtUsername"
                FontSize="20"
                FontWeight="Bold"
                FontFamily="Arial"
@@ -33,7 +33,7 @@
                FontWeight="Bold"
                FontFamily="Arial"
                DockPanel.Dock="Bottom"></Label>
-            <TextBox
+            <TextBox x:Name="txtPassword"
                FontSize="20"
                FontWeight="Bold"
                FontFamily="Arial"
@@ -42,7 +42,7 @@
                 />
         </WrapPanel>
         <Grid>
-            <Button Content="Login"
+            <Button x:Name="btnLogin" Content="Login"
                     FontSize="20"
                     FontWeight="Bold" Margin="159,10,168.6,0"
                     TabIndex="2" 

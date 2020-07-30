@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManageCafe.DAO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,14 +23,31 @@ namespace ManageCafe
         public WpfLogin()
         {
             InitializeComponent();
+            txtUsername.Text = "K9";
+            txtPassword.Text = "1";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            WpfMain wpf = new WpfMain();
-            this.Hide();
-            wpf.ShowDialog();
-            this.Show();
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+            if (Login(username,password))
+            {
+                WpfMain wpf = new WpfMain();
+                this.Hide();
+                wpf.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("User name or password incorrect");
+            }
+            
+
+        }
+        private bool Login(string username,string password)
+        {
+            return AccountDAO.Instance.Login(username,password);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

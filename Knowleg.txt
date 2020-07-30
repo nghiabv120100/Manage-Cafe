@@ -1,0 +1,2 @@
+Static: Init when run program, wasting memory
+SingleTon: Init when use.
